@@ -1,0 +1,96 @@
+
+.nav-link{
+  color: #ed136a;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#logo{
+  width: 150px ;
+  height: auto;
+}
+
+.portfolio{
+  display: flex;
+  align-items: center;
+}
+
+/*----------------HOVER-----------------*/
+
+.zoom {
+  padding: 0px;
+  transition: transform .2s;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2.5);
+  z-index: 20;
+}
+/*----------------HOVER-----------------*/
+
+
+
+.img-pf{
+  width: 200px;
+  height: auto;
+}
+
+.container_services{
+  margin-top: 400px;
+}
+
+.card-img-top{
+  padding: 20px;
+}
+
+.jumbo_clients{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background: transparent;
+}
+
+.container_clients{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.nike_logo{
+  margin-top: 65px;
+}
+
+.about_section{
+  background-color: #b48991;
+  margin-top: 50px;
+}
+
+.row_footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fd395f;
+}
+
+.facebook_logo{
+
+}
+
+.twitter_logo{
+  margin-top: 25px;
+  width: 150px;
+  height: auto;
+}
+
+.copyright{
+  margin-top: 70px;
+}
+
+.card-about{
+  padding: 50px;
+  border: 20px solid #b48991;
+  background-color: #b48991;
+}
