@@ -8,21 +8,21 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="ressources/seekfind_slider.jpg" class="d-block w-100" alt="seekfind">
+      <img src="ressources/seekfind_slider.jpg" class="d-block w-100 img-carou" alt="seekfind">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide</h5>
         <p>seek find slide 1</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="ressources/Nope_slider.jpg" class="d-block w-100" alt="nope">
+      <img src="ressources/Nope_slider.jpg" class="d-block w-100 img-carou" alt="nope">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide</h5>
         <p>Nope slide 2</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="ressources/36_slider" class="d-block w-100" alt="36">
+      <img src="ressources/36_slider" class="d-block w-100 img-carou" alt="36">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide</h5>
         <p>36 slide 3</p>
@@ -46,7 +46,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container container-pf" id="lien-portfolio">
   <div class="row">
     <div class="col-sm zoom">
         <img src="ressources/Burning_flower_PF.jpg" class="card-img-top img-pf" alt="BF_PF">
@@ -69,7 +69,7 @@
   </div>
 </div>
 
-<div class="container container_services">
+<div class="container container_services" id="lien-services">
   <div class="row">
     <div class="col-sm col_inprnt_logo">
       <div class="card">
@@ -98,7 +98,7 @@
   </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid jumbo_clients">
+<div class="jumbotron jumbotron-fluid jumbo_clients" id="lien-clients">
   <div class="container">
     <h1 class="display-4">J'ai pu travailler pour des marques tel que...</h1>
   </div>
@@ -118,25 +118,31 @@
   </div>
 </div>
 
-<div class="about_section">
+<div class="about_section" id="lien-contact">
   <div class="container">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col-sm">
       <div class="card">
         <div class="card-body card-about">
-          This is some text within a card body.
+          <h3> M'envoyer une lettre d'amour </h3>
+          <p> Vous pouvez m'envoyer un mail avec le formulaire juste à côter ! </p>
         </div>
       </div>
     </div>
     <div class="col-sm">
-      One of three columns
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+         <label for="exampleFormControlTextarea1">Example textarea</label>
+         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+       </div>
+      </form>
     </div>
   </div>
 </div>
 </div>
-
-
-
-
 
 <?php include 'footer.php'; ?>

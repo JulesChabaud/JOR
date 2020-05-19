@@ -5,6 +5,10 @@
   padding: 30px;
 }
 
+.nav . icon{
+  display: none;
+}
+
 #logo{
   width: 150px ;
   height: auto;
@@ -63,7 +67,7 @@
 }
 
 .about_section{
-  background-color: #b48991;
+  background-color: #E86B6B;
   margin-top: 50px;
 }
 
@@ -72,7 +76,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fd395f;
+
 }
 
 .facebook_logo{
@@ -90,7 +94,27 @@
 }
 
 .card-about{
-  padding: 50px;
-  border: 20px solid #b48991;
-  background-color: #b48991;
+  width: 100%;
+  height: 100%;
 }
+
+footer{
+  background-size: 100%;
+  background-color: #FF7272;
+}
+
+/*-----------------------Responsive----------------------*/
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    height: 20em;
+    margin-top: 2em;
+    vertical-align: middle;
+  }
+}
+
+
+/*-----------------------Responsive----------------------*/
