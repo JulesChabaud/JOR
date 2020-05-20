@@ -80,65 +80,14 @@ footer{
 
 /*-----------------------Responsive----------------------*/
 
-/*----Carousel----*/
-@media screen and (max-width: 500px) {
-
-  .carousel .jumbo-hist {
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-    margin-top: 2em;
-    vertical-align: middle;
-  }
-  /*----Carousel----*/
-
   /*----Portfolio---*/
 
 @media screen and (max-width: 1000px){
 
-  .container-pf{
-    flex-direction: column;
-
-    margin-left: auto;
-    margin-right: 1000px;
+  .row-pf{
+    display: none;
   }
-
-  .img-ML2{
-    margin-top: 200px;
-  }
-  .img-NP4{
-    margin-top: 245px;
-  }
-  .img-PD{
-    margin-top: 190px;
-  }
-  .img-SNK{
-    margin-top: 140px;
-  }
-  .img-XIXO{
-    margin-top: 190px;
-  }
+}
   /*----Portfolio---*/
-
-  /*----Services---*/
-
-  .card_services{
-    margin-top: 0px;
-  }
-
-  /*----Services---*/
-
-  /*----Clients---*/
-
-  .jumbo_clients h1{
-    margin: auto;
-  }
-  .pixar_logo{
-    margin-top: 500px;
-  }
-  /*----Clients---*/
-
-
 
 /*-----------------------Responsive----------------------*/
