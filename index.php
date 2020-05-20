@@ -39,7 +39,7 @@
   </a>
 </div>
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid jumbo-hist">
   <div class="container">
     <h2 class="display-4">Qui suis-je?</h2>
     <p class="lead">Je m'appelle Jor, je suis un illustrateur espagnol. Je me concentre principalement sur la Pop culture, la Fashion, le Streetwear et la musique. Je développe également des concepts pour différentes marques.</p>
@@ -47,23 +47,23 @@
 </div>
 
 <div class="container container-pf" id="lien-portfolio">
-  <div class="row">
-    <div class="col-sm zoom">
+  <div class="row row-pf">
+    <div class="col-sm img-BF zoom">
         <img src="ressources/Burning_flower_PF.jpg" class="card-img-top img-pf" alt="BF_PF">
     </div>
-    <div class="col-sm zoom">
+    <div class="col-sm img-ML2 zoom">
         <img src="ressources/ML2_PF.JPG" class="card-img-top img-pf" alt="ML2_PF">
     </div>
-    <div class="col-sm zoom">
+    <div class="col-sm img-NP4 zoom">
         <img src="ressources/NP4_pf.jpg" class="card-img-top img-pf" alt="NP4_PF">
     </div>
-    <div class="col-sm zoom">
+    <div class="col-sm img-PD zoom">
         <img src="ressources/Psychic_Dribble_PF.jpg" class="card-img-top img-pf" alt="PD_PF">
     </div>
-    <div class="col-sm zoom">
+    <div class="col-sm img-SNK zoom">
         <img src="ressources/Snake1_pf.jpg" class="card-img-top img-pf" alt="SNK_pf">
     </div>
-    <div class="col-sm zoom">
+    <div class="col-sm img-XIXO zoom">
         <img src="ressources/xixo1_PF.jpg" class="card-img-top img-pf" alt="XIXO1_PF">
     </div>
   </div>
@@ -72,7 +72,7 @@
 <div class="container container_services" id="lien-services">
   <div class="row">
     <div class="col-sm col_inprnt_logo">
-      <div class="card">
+      <div class="card card-services">
   <img src="ressources/inprntlogo.png" class="card-img-top" alt="inprnt_logo">
   <div class="card-body">
     <p class="card-text">You can purchase high quality printed versions of my work at my <B>INPRNT shop</B> by clicking up above.</p>
@@ -80,7 +80,7 @@
 </div>
     </div>
     <div class="col-sm">
-      <div class="card">
+      <div class="card card-services">
   <img src="ressources/store_logo2.png" class="card-img-top" alt="store_logo">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -88,7 +88,7 @@
 </div>
     </div>
     <div class="col-sm">
-      <div class="card">
+      <div class="card card-services">
   <img src="ressources/commande_logo.png" class="card-img-top" alt="pencil_logo">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -100,7 +100,7 @@
 
 <div class="jumbotron jumbotron-fluid jumbo_clients" id="lien-clients">
   <div class="container">
-    <h1 class="display-4">J'ai pu travailler pour des marques tel que...</h1>
+    <h2 class="display-4">J'ai pu travailler pour des marques tel que...</h1>
   </div>
 </div>
 
@@ -112,7 +112,7 @@
     <div class="col-sm">
       <img src="ressources/dc_logo.png" class="card-img-top" alt="dc_logo">
     </div>
-    <div class="col-sm">
+    <div class="col-sm pixar_logo">
       <img src="ressources/pixar_logo.png" class="card-img-top" alt="pixar_logo">
     </div>
   </div>
@@ -125,18 +125,18 @@
       <div class="card">
         <div class="card-body card-about">
           <h3> M'envoyer une lettre d'amour </h3>
-          <p> Vous pouvez m'envoyer un mail avec le formulaire juste à côter ! </p>
+          <p> Vous pouvez m'envoyer un mail avec ce formulaire ! </p>
         </div>
       </div>
     </div>
     <div class="col-sm">
       <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="exampleFormControlInput1">Ton Email</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="form-group">
-         <label for="exampleFormControlTextarea1">Example textarea</label>
+         <label for="exampleFormControlTextarea1">Ton message</label>
          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
        </div>
       </form>
