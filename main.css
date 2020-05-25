@@ -99,7 +99,6 @@ footer{
   .logo_jor_menu{
     align-items: flex-start;
   }
-
   .row-pf{
     display: none;
   }
@@ -118,12 +117,28 @@ footer{
   .twitter_logo{
     margin-top: 7px;
   }
-  .img-carou-pf img{
+
+  .img-carou-pf{
     margin:auto;
   }
   .img-carou-portfolio{
     margin: auto;
   }
+  .carousel-item-pf {
+    height: 800px;
+}
+
+  .carousel-item-pf img {
+    padding: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
   .jumbo_clients h2 {
     margin: 0 0 50px;
@@ -149,9 +164,3 @@ footer{
   /*----Portfolio---*/
 
 /*-----------------------Responsive----------------------*/
-
-.carou-pf{
-  width: auto;
-  height: 800px;
-  margin: auto;
-}

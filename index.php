@@ -73,22 +73,22 @@
 <div class="block-car-pf">
   <div id="carouselExampleControls" class="carousel slide carou-pf" data-ride="carousel">
     <div class="carousel-inner img-carou-pf">
-      <div class="carousel-item active">
+      <div class="carousel-item carousel-item-pf active">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/Burning_flower_PF.jpg" alt="First slide">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item carousel-item-pf">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/ML2_PF.JPG" alt="Second slide">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item carousel-item-pf">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/NP4_pf.jpg" alt="Third slide">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item carousel-item-pf">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/Psychic_Dribble_PF.jpg" alt="Fourth slide">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item carousel-item-pf">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/Snake1_pf.jpg" alt="Fifth slide">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item carousel-item-pf">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/xixo1_PF.jpg" alt="Sixth slide">
       </div>
     </div>
