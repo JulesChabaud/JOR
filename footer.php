@@ -10,9 +10,6 @@
     <div class="col">
       <img src="ressources/twitter_logo_resize.png" class="card-img-top twitter_logo" alt="twitter_logo">
     </div>
-    <div class="col">
-      <img src="ressources/home.png" class="card-img-top twitter_logo" alt="twitter_logo">
-    </div>
   </div>
 </div>
 </footer>

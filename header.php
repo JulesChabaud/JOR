@@ -17,7 +17,7 @@
 
 
 
-    <nav class="navbar navbar-expand-md navbar-light justify-content-end">
+    <nav class="navbar navbar-expand-md navbar-light justify-content-start">
       <a class="navbar-brand" href="#">
     <img src="ressources/jor_logo.jpg" class="logo_jor_menu" width="200px" height="auto" alt="logo">
       </a>
