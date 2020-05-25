@@ -5,7 +5,7 @@
   padding: 30px;
 }
 
-.nav . icon{
+.nav .icon{
   display: none;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .zoom:hover {
-  transform: scale(2.5);
+  transform: scale(2.5) translateY(10%);
   z-index: 2;
 }
 
@@ -53,6 +53,10 @@ text-align:center;
   margin-top: 65px;
 }
 
+.pixar_logo{
+  padding-top: 110px;
+}
+
 .about_section{
   background-color: #E86B6B;
   margin-top: 50px;
@@ -63,6 +67,7 @@ text-align:center;
   left: 0;
   bottom: 0;
   width: 100%;
+}
 
 .copyright{
   margin-top: 70px;
@@ -82,12 +87,71 @@ footer{
 
   /*----Portfolio---*/
 
+  @media screen and (min-width: 1000px){
+
+    .carou-pf{
+      display: none;
+    }
+  }
+
 @media screen and (max-width: 1000px){
+
+  .logo_jor_menu{
+    align-items: flex-start;
+  }
 
   .row-pf{
     display: none;
   }
+  .copyright{
+    margin: 10px;
+    text-align: center;
+  }
+  .facebook_logo{
+    width: 80px;
+    height: auto;
+  }
+  .twitter_logo{
+    width: 70px;
+    height: auto;
+  }
+  .twitter_logo{
+    margin-top: 7px;
+  }
+  .img-carou-pf img{
+    margin:auto;
+  }
+  .img-carou-portfolio{
+    margin: auto;
+  }
+
+  .jumbo_clients h2 {
+    margin: 0 0 50px;
+    font-weight: lighter;
+    line-height: 1;
+    font-size: 50px;
+    color: #c9c9c9;
+    text-transform: uppercase;
+  }
+  .nike_logo{
+    margin-top: 0px;
+  }
+  .pixar_logo{
+    margin-top: 0px;
+  }
+  .card-message{
+    margin-top: 10px;
+  }
 }
+
+
+
   /*----Portfolio---*/
 
 /*-----------------------Responsive----------------------*/
+
+.carou-pf{
+  width: auto;
+  height: 800px;
+  margin: auto;
+}

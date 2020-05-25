@@ -1,7 +1,7 @@
 <footer>
 <div class="container container_footer">
   <div class="row row-footer">
-    <div class="col-8">
+    <div class="col-5">
       <p class="copyright"> © 2020 - JC All Right Reserved </p>
     </div>
     <div class="col">
@@ -9,6 +9,9 @@
     </div>
     <div class="col">
       <img src="ressources/twitter_logo_resize.png" class="card-img-top twitter_logo" alt="twitter_logo">
+    </div>
+    <div class="col">
+      <img src="ressources/home.png" class="card-img-top twitter_logo" alt="twitter_logo">
     </div>
   </div>
 </div>
