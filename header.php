@@ -27,13 +27,13 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#lien-portfolio">Portfolio</a>
+            <a class="nav-link font-menu" href="#lien-portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#lien-services">Services</a>
+            <a class="nav-link font-menu" href="#lien-services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#lien-clients">Clients</a>
+            <a class="nav-link font-menu" href="#lien-clients">Clients</a>
           </li>
         </ul>
       </div>

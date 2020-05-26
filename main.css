@@ -1,16 +1,40 @@
 
+/*--------Nav-Menu--------*/
 .nav-link{
   color: #ed136a;
   font-size: 30px;
   padding: 30px;
 }
-
 .nav .icon{
   display: none;
 }
+/*--------Nav-Menu--------*/
 
-/*----------------HOVER-----------------*/
+/*---Jumbotron-History---*/
+.highlight_jumbo{
+  color: #FF7272;
+}
+  /*---style liens---*/
 
+a:visited{
+  color: #ba5656;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+  /*---style liens---*/
+
+/*---Jumbotron-History---*/
+
+
+/*---------------PORTFOLIO---------------*/
+.img-pf{
+  width: 200px;
+  height: auto;
+}
+
+  /*----Hover----*/
 .zoom {
   padding: 0px;
   transition: transform .2s;
@@ -25,18 +49,19 @@
 .zoom {
 text-align:center;
 }
+  /*----Hover----*/
 
-/*----------------HOVER-----------------*/
+/*---------------PORTFOLIO---------------*/
 
-.img-pf{
-  width: 200px;
-  height: auto;
-}
 
+/*---Padding-Img---*/
 .card-img-top{
   padding: 20px;
 }
+/*---Padding-Img---*/
 
+
+/*------Clients------*/
 .jumbo_clients{
   margin-top: 50px;
   margin-bottom: 0px;
@@ -49,6 +74,7 @@ text-align:center;
   margin-top: 0px;
 }
 
+
 .nike_logo{
   margin-top: 65px;
 }
@@ -56,78 +82,86 @@ text-align:center;
 .pixar_logo{
   padding-top: 110px;
 }
+/*------Clients------*/
 
+
+/*-----About-----*/
 .about_section{
   background-color: #E86B6B;
   margin-top: 50px;
 }
+/*-----About-----*/
 
-.row_footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
-.copyright{
-  margin-top: 70px;
-}
-
-.card-about{
-  width: 100%;
-  height: 100%;
-}
-
+/*-----Footer-----*/
 footer{
   background-size: 100%;
   background-color: #FF7272;
 }
+.copyright{
+  margin-top: 70px;
+}
+/*-----Footer-----*/
+
 
 /*-----------------------Responsive----------------------*/
 
-  /*----Portfolio---*/
+  /*----Desktop---*/
 
-  @media screen and (min-width: 1000px){
+  @media screen and (min-width: 800px){
 
     .carou-pf{
       display: none;
     }
+    .facebook_logo{
+      width: 100px;
+      height: auto;
+    }
+    .twitter_logo{
+      width: 90px;
+      height:auto;
+    }
+    .copyright{
+      align-items: flex-start;
+      vertical-align: middle;
+    }
   }
+  /*----Desktop---*/
 
-@media screen and (max-width: 1000px){
+  /*----Mobile---*/
+@media screen and (max-width: 800px){
 
   .logo_jor_menu{
     align-items: flex-start;
-  }
+}
   .row-pf{
     display: none;
-  }
+}
   .copyright{
     margin: 10px;
     text-align: center;
-  }
+}
   .facebook_logo{
     width: 80px;
     height: auto;
-  }
+}
   .twitter_logo{
     width: 70px;
     height: auto;
-  }
+}
   .twitter_logo{
     margin-top: 7px;
-  }
+}
 
   .img-carou-pf{
     margin:auto;
-  }
+}
   .img-carou-portfolio{
     margin: auto;
-  }
+}
   .carousel-item-pf {
     height: 800px;
 }
-
   .carousel-item-pf img {
     padding: 10px;
     max-height: 100%;
@@ -139,7 +173,6 @@ footer{
     right: 0;
     margin: auto;
 }
-
   .jumbo_clients h2 {
     margin: 0 0 50px;
     font-weight: lighter;
@@ -158,9 +191,18 @@ footer{
     margin-top: 10px;
   }
 }
-
-
-
-  /*----Portfolio---*/
+  /*----Mobile---*/
 
 /*-----------------------Responsive----------------------*/
+
+
+
+
+
+/*---------TEST---------*/
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    background-color: transparent;
+}

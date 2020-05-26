@@ -42,7 +42,7 @@
 <div class="jumbotron jumbotron-fluid jumbo-hist">
   <div class="container">
     <h2 class="display-4">Qui suis-je?</h2>
-    <p class="lead">Je m'appelle Jor, je suis un illustrateur espagnol. Je me concentre principalement sur la Pop culture, la Fashion, le Streetwear et la musique. Je développe également des concepts pour différentes marques.</p>
+    <p class="lead">Je m'appelle Jor, je suis un illustrateur espagnol. Je me concentre principalement sur la <span class="highlight_jumbo">Pop culture</span>, la<span class="highlight_jumbo"> Fashion</span>, la<span class="highlight_jumbo"> Streetwear</span> et la <span class="highlight_jumbo">musique</span>. Je développe également des concepts pour différentes <a class="highlight_jumbo marques_history" href="#lien-clients">marques</a>.</p>
   </div>
 </div>
 
@@ -109,7 +109,7 @@
       <div class="card card-services">
   <img src="ressources/inprntlogo.png" class="card-img-top" alt="inprnt_logo">
   <div class="card-body">
-    <p class="card-text">You can purchase high quality printed versions of my work at my <B>INPRNT shop</B> by clicking up above.</p>
+    <p class="card-text">You can purchase high quality printed versions of my work at my <a class="highlight_jumbo" href="#">INPRNT shop</a>.</p>
   </div>
 </div>
     </div>
@@ -117,7 +117,7 @@
       <div class="card card-services">
   <img src="ressources/store_logo2.png" class="card-img-top" alt="store_logo">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Tu peux aller faire un tour sur la boutique, je vends des t-shirt, des sweats, des pins et bien d'autres choses!</p>
   </div>
 </div>
     </div>
@@ -125,7 +125,7 @@
       <div class="card card-services">
   <img src="ressources/commande_logo.png" class="card-img-top" alt="pencil_logo">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Pour les commandes, contact moi via le <a class="highlight_jumbo" href="#lien-formulaire">formulaire</a> en bas du site!</p>
   </div>
 </div>
     </div>
@@ -159,13 +159,13 @@
       <div class="card card-message">
         <div class="card-body card-about">
           <h3> M'envoyer une lettre d'amour </h3>
-          <p> Vous pouvez m'envoyer un mail avec ce formulaire ! </p>
+          <p> Tu peux m'envoyer un mail avec ce formulaire ! </p>
         </div>
       </div>
     </div>
     <div class="col-sm">
       <form>
-        <div class="form-group">
+        <div class="form-group" id="lien-formulaire">
           <label for="exampleFormControlInput1">Ton Email</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
