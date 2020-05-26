@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="ressources/36_slider" class="d-block w-100 img-carou" alt="36">
+      <img src="ressources/36_slider.jpg" class="d-block w-100 img-carou" alt="36">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide</h5>
         <p>36 slide 3</p>
@@ -50,10 +50,10 @@
 <div class="container container-pf" id="lien-portfolio">
   <div class="row row-pf">
     <div class="col-sm img-BF zoom">
-        <img src="ressources/Burning_flower_PF.jpg" class="card-img-top img-pf" alt="BF_PF">
+        <img src="ressources/Burning_Flower_PF.jpg" class="card-img-top img-pf" alt="BF_PF">
     </div>
     <div class="col-sm img-ML2 zoom">
-        <img src="ressources/ML2_PF.JPG" class="card-img-top img-pf" alt="ML2_PF">
+        <img src="ressources/ML2_PF.jpg" class="card-img-top img-pf" alt="ML2_PF">
     </div>
     <div class="col-sm img-NP4 zoom">
         <img src="ressources/NP4_pf.jpg" class="card-img-top img-pf" alt="NP4_PF">
@@ -74,10 +74,10 @@
   <div id="carouselExampleControls" class="carousel slide carou-pf" data-ride="carousel">
     <div class="carousel-inner img-carou-pf">
       <div class="carousel-item carousel-item-pf active">
-        <img class="center-block w-100 img-carou-portfolio" src="ressources/Burning_flower_PF.jpg" alt="First slide">
+        <img class="center-block w-100 img-carou-portfolio" src="ressources/Burning_Flower_PF.jpg" alt="First slide">
       </div>
       <div class="carousel-item carousel-item-pf">
-        <img class="center-block w-100 img-carou-portfolio" src="ressources/ML2_PF.JPG" alt="Second slide">
+        <img class="center-block w-100 img-carou-portfolio" src="ressources/ML2_PF.jpg" alt="Second slide">
       </div>
       <div class="carousel-item carousel-item-pf">
         <img class="center-block w-100 img-carou-portfolio" src="ressources/NP4_pf.jpg" alt="Third slide">

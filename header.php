@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light justify-content-start">
       <a class="navbar-brand" href="#">
-    <img src="ressources/jor_logo.jpg" class="logo_jor_menu" width="200px" height="auto" alt="logo">
+    <img src="ressources/jor_logo.gif" class="logo_jor_menu" width="140" height="90" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon "></span>
@@ -38,7 +38,6 @@
         </ul>
       </div>
     </nav>
-    <br>
 
 
     </div>

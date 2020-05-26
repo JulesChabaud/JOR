@@ -133,6 +133,8 @@ footer{
 
   .logo_jor_menu{
     align-items: flex-start;
+    width: 60px;
+    height: auto;
 }
   .row-pf{
     display: none;
